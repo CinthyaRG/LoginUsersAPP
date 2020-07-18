@@ -1,0 +1,45 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Login de usuario desarrollado con grphql y nodejs con vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --source-maps",
+    "start": "nodemon src/index.js --exec babel-node",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Cinthya Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.16.0",
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "lodash.merge": "^4.6.2",
+    "mongoose": "^5.9.25",
+    "node-env-file": "^0.1.8",
+    "stream-to": "^2.0.0",
+    "stream-to-buffer": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "graphql-tag": "^2.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
