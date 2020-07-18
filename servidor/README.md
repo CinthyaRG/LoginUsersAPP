@@ -29,4 +29,4 @@ CLOUDINARY_API_KEY="key"
 CLOUDINARY_API_SECRET="api_secret"
 ```
 
-- `Para obtener el valor de las variables CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY y CLOUDINARY_API_SECRET se debe registrar en https://cloudinary.com/users/register/free y seguir los pasos.`
+- `Crear un archivo llamado .env con las variables anteriores. Para obtener el valor de las variables CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY y CLOUDINARY_API_SECRET se debe registrar en https://cloudinary.com/users/register/free y seguir los pasos.`
